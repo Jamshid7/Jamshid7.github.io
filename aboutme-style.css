@@ -10,6 +10,13 @@ p {
 	color: #1A69DF;
 }
 
+p::first-letter {
+	float: left;
+	width: 15em;
+	line-height: 15px;
+	font-size: 50px;
+}
+
 img {
 	width: 120pt;
 	height: 80pt;
@@ -17,6 +24,7 @@ img {
 
 a:link {
 	color: green;
+	text-decoration: none;
 }
 
 a:visited {
@@ -25,4 +33,5 @@ a:visited {
 
 a:hover {
 	color: magenta;
+	text-decoration: underline;
 }
